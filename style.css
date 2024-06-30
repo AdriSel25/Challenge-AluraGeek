@@ -1,0 +1,138 @@
+body {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.5em;
+    margin: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.top-bar {
+    background-color: #5300C8;
+    padding: 1rem 0;
+}
+
+.main-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.main-title, .sub-title {
+    text-align: center;
+}
+
+.main-title {
+    margin: 0;
+    color: #ffffff;
+}
+
+.item-list {
+    margin-bottom: 2rem;
+}
+
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.item {
+    font-family: "IBM Plex Mono", monospace;
+    font-style: normal;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 4px;
+    background-color: #5300C8;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: #ffffff;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.item h3 {
+    font-size: 2em;
+    margin: 8px 4px;
+}
+
+.item p {
+    font-size: 2em;
+    margin: 4px 4px;
+}
+
+.add-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.add-item h2 {
+    margin-bottom: 1rem;
+}
+
+.add-item form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-item label {
+    margin-bottom: 0.5rem;
+}
+
+.add-item input[type="text"],
+.add-item input[type="number"],
+.add-item input[type="url"] {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+.add-item button {
+    color: #ffffff;
+    border: none;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: bold;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-btn {
+    background-color: #03318C;
+}
+
+.reset-btn {
+    background-color: #ffffff;
+    color: #03318C;
+    border-color: #03318C;
+    border-style: solid;
+}
+
+.bottom-bar {
+    background-color: #00eeff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.bottom-bar p {
+    margin: 0;
+}
